@@ -1,0 +1,92 @@
+.css-userprofile-container{
+    padding: 30px;
+}
+
+.css-download-button-react{
+    position: fixed;
+    top:130px;
+    left: 690px;
+    z-index: 1;
+}
+
+.css-membership-container{
+    margin: 30px;
+    width: 700px;
+    height: 300px;
+    
+    display: flex
+}
+
+
+
+.css-frontpart-container{
+    border-style: solid;
+    border-color: black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-width: 1px;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    padding: 20px;
+}
+
+.css-ul-candidate-details{
+    list-style-type:none ;
+    padding: 10px;
+
+}
+
+.css-frontpart-details-container{
+    font-size: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.css-backpart-container{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    padding: 20px;
+}
+
+.css-download-icon {
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    width: 60px;
+    height:40px;
+    font-size: 30px; 
+    padding: 5px;
+    border-radius: 10px;
+    border-width: 0;
+    font-weight: bold;
+}
+
+.css-download-icon:hover{
+    cursor: pointer;
+    background-color: blue;
+    border-width: 0;
+}
+
+.css-candidate-image-itself{
+    width: 60px;
+}
+
+.css-companylogo-image-itself{
+    width: 100px;
+}
+
+.css-candidate-address-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
